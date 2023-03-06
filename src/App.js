@@ -9,17 +9,17 @@ import LoginForm from './components/LoginForm/LoginForm';
 function App() {
   return (
     <div className="wrapper">
-      {/* <Header />
+      <Header />
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </div> */}
+      </div> 
       {/* <RegistrationForm /> */}
-      <LoginForm />
+      <LoginForm /> 
     </div>
   );
-}
+} 
 
-export default App;
+export default App; 
